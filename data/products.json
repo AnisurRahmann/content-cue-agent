@@ -1,0 +1,254 @@
+{
+  "products": [
+    {
+      "slug": "chatgpt-plus",
+      "name": "ChatGPT Plus",
+      "category": "AI Assistant",
+      "price_bdt": 2500,
+      "price_usd": 20,
+      "duration": "1 month",
+      "description": "Premium access to OpenAI's ChatGPT with GPT-4 for advanced AI conversations, coding help, and content creation.",
+      "features": [
+        "Access to GPT-4 and GPT-4o",
+        "Faster response times",
+        "Priority access during peak hours",
+        "Early access to new features",
+        "Data analysis capabilities",
+        "Web browsing for current information"
+      ],
+      "target_audience": "Developers, content creators, students, professionals seeking AI assistance",
+      "activation_steps": [
+        "Sign up for OpenAI account",
+        "Upgrade to ChatGPT Plus",
+        "Start using GPT-4 immediately"
+      ],
+      "whatsapp_number": "8801XXXXXXXXX",
+      "whatsapp_message_template": "Hi, I'm interested in ChatGPT Plus subscription. How can I get started?"
+    },
+    {
+      "slug": "gemini-pro",
+      "name": "Google Gemini Pro",
+      "category": "AI Assistant",
+      "price_bdt": 2800,
+      "price_usd": 22,
+      "duration": "1 month",
+      "description": "Google's advanced AI assistant with multimodal capabilities - text, images, code, and more.",
+      "features": [
+        "Multimodal understanding (text, images, code)",
+        "1 million token context window",
+        "Deep Google integration",
+        "Code generation and debugging",
+        "Image analysis and generation",
+        "Real-time web search"
+      ],
+      "target_audience": "Researchers, developers, businesses needing Google ecosystem integration",
+      "activation_steps": [
+        "Create Google Account",
+        "Subscribe to Gemini Pro",
+        "Access via Google AI Studio"
+      ],
+      "whatsapp_number": "8801XXXXXXXXX",
+      "whatsapp_message_template": "Hi, I want to subscribe to Google Gemini Pro. What's the process?"
+    },
+    {
+      "slug": "midjourney",
+      "name": "Midjourney",
+      "category": "AI Image Generation",
+      "price_bdt": 3000,
+      "price_usd": 24,
+      "duration": "1 month",
+      "description": "Industry-leading AI image generation tool for creating stunning artwork, designs, and visuals.",
+      "features": [
+        "High-quality artistic image generation",
+        "Unlimited generations (basic plan)",
+        "Commercial usage rights",
+        "Discord-based interface",
+        "Style and parameter controls",
+        "Upcoming web interface access"
+      ],
+      "target_audience": "Designers, artists, marketers, content creators needing visuals",
+      "activation_steps": [
+        "Join Midjourney Discord",
+        "Subscribe to plan",
+        "Start generating with /imagine command"
+      ],
+      "whatsapp_number": "8801XXXXXXXXX",
+      "whatsapp_message_template": "Hi, I'm interested in Midjourney subscription. How do I subscribe?"
+    },
+    {
+      "slug": "canva-pro",
+      "name": "Canva Pro",
+      "category": "Design Tools",
+      "price_bdt": 1800,
+      "price_usd": 15,
+      "duration": "1 month",
+      "description": "Professional design platform for creating stunning graphics, presentations, and marketing materials.",
+      "features": [
+        "100M+ premium templates",
+        "420K+ premium templates",
+        "Brand Kit for consistent branding",
+        "Magic Studio AI tools",
+        "Background remover",
+        "Team collaboration features"
+      ],
+      "target_audience": "Small businesses, marketers, social media managers, freelancers",
+      "activation_steps": [
+        "Create Canva account",
+        "Upgrade to Pro",
+        "Access all premium features immediately"
+      ],
+      "whatsapp_number": "8801XXXXXXXXX",
+      "whatsapp_message_template": "Hi, I want to get Canva Pro subscription. What are the payment options?"
+    },
+    {
+      "slug": "capcut-pro",
+      "name": "CapCut Pro",
+      "category": "Video Editing",
+      "price_bdt": 1500,
+      "price_usd": 12,
+      "duration": "1 month",
+      "description": "Professional video editing suite with AI-powered tools for creating engaging social media content.",
+      "features": [
+        "AI-powered video editing",
+        "Advanced effects and transitions",
+        "No watermark",
+        "4K video export",
+        "Cloud storage for projects",
+        "Trending templates and effects"
+      ],
+      "target_audience": "Content creators, TikTok users, small businesses, video editors",
+      "activation_steps": [
+        "Download CapCut app",
+        "Upgrade to Pro",
+        "Start creating professional videos"
+      ],
+      "whatsapp_number": "8801XXXXXXXXX",
+      "whatsapp_message_template": "Hi, I'm interested in CapCut Pro. How can I subscribe?"
+    },
+    {
+      "slug": "grammarly-premium",
+      "name": "Grammarly Premium",
+      "category": "Writing Tools",
+      "price_bdt": 2200,
+      "price_usd": 18,
+      "duration": "1 month",
+      "description": "AI-powered writing assistant for perfect grammar, clarity, tone, and plagiarism detection.",
+      "features": [
+        "Advanced grammar and spelling checks",
+        "Tone detection and suggestions",
+        "Plagiarism detector",
+        "Vocabulary enhancements",
+        "Genre-specific writing style",
+        "Works across all apps and browsers"
+      ],
+      "target_audience": "Writers, students, professionals, non-native English speakers",
+      "activation_steps": [
+        "Create Grammarly account",
+        "Upgrade to Premium",
+        "Install browser extension or app"
+      ],
+      "whatsapp_number": "8801XXXXXXXXX",
+      "whatsapp_message_template": "Hi, I want Grammarly Premium subscription. How do I activate?"
+    },
+    {
+      "slug": "microsoft-365",
+      "name": "Microsoft 365",
+      "category": "Productivity Suite",
+      "price_bdt": 3200,
+      "price_usd": 25,
+      "duration": "1 month",
+      "description": "Complete productivity suite with Word, Excel, PowerPoint, Teams, and cloud storage.",
+      "features": [
+        "Word, Excel, PowerPoint, Outlook",
+        "1TB OneDrive cloud storage",
+        "Microsoft Teams for collaboration",
+        "Advanced security features",
+        "Desktop and mobile access",
+        "Always up-to-date versions"
+      ],
+      "target_audience": "Businesses, students, office workers, remote teams",
+      "activation_steps": [
+        "Create Microsoft account",
+        "Subscribe to Microsoft 365",
+        "Download and install apps"
+      ],
+      "whatsapp_number": "8801XXXXXXXXX",
+      "whatsapp_message_template": "Hi, I'm interested in Microsoft 365 subscription. What's the process?"
+    },
+    {
+      "slug": "perplexity-pro",
+      "name": "Perplexity Pro",
+      "category": "AI Research",
+      "price_bdt": 2400,
+      "price_usd": 19,
+      "duration": "1 month",
+      "description": "AI-powered search and research engine with cited sources and deep analysis capabilities.",
+      "features": [
+        "AI-powered search with citations",
+        "Unlimited Pro searches",
+        "Upload and analyze files",
+        "GPT-4 and Claude integration",
+        "Thread history",
+        "API access"
+      ],
+      "target_audience": "Researchers, students, journalists, professionals needing accurate information",
+      "activation_steps": [
+        "Create Perplexity account",
+        "Upgrade to Pro",
+        "Start researching with AI"
+      ],
+      "whatsapp_number": "8801XXXXXXXXX",
+      "whatsapp_message_template": "Hi, I want to subscribe to Perplexity Pro. How do I get started?"
+    },
+    {
+      "slug": "cursor-pro",
+      "name": "Cursor Pro",
+      "category": "Development Tools",
+      "price_bdt": 2600,
+      "price_usd": 20,
+      "duration": "1 month",
+      "description": "AI-first code editor built on VS Code with intelligent code completion and generation.",
+      "features": [
+        "AI-powered code completion",
+        "Chat with your codebase",
+        "Intelligent refactoring",
+        "Bug detection and fixing",
+        "Multi-file editing",
+        "Git integration"
+      ],
+      "target_audience": "Developers, software engineers, coding students, tech startups",
+      "activation_steps": [
+        "Download Cursor editor",
+        "Create account and upgrade to Pro",
+        "Start coding with AI assistance"
+      ],
+      "whatsapp_number": "8801XXXXXXXXX",
+      "whatsapp_message_template": "Hi, I want Cursor Pro subscription. What are the payment options?"
+    },
+    {
+      "slug": "adobe-creative-cloud",
+      "name": "Adobe Creative Cloud",
+      "category": "Creative Suite",
+      "price_bdt": 5500,
+      "price_usd": 45,
+      "duration": "1 month",
+      "description": "Industry-standard creative suite including Photoshop, Illustrator, Premiere Pro, and more.",
+      "features": [
+        "Photoshop, Illustrator, Premiere Pro",
+        "20+ creative apps",
+        "100GB cloud storage",
+        "Adobe Fonts library",
+        "Adobe Stock integration",
+        "Latest features and updates"
+      ],
+      "target_audience": "Professional designers, photographers, video editors, creative agencies",
+      "activation_steps": [
+        "Create Adobe ID",
+        "Subscribe to Creative Cloud",
+        "Download and install apps"
+      ],
+      "whatsapp_number": "8801XXXXXXXXX",
+      "whatsapp_message_template": "Hi, I'm interested in Adobe Creative Cloud subscription. How can I subscribe?"
+    }
+  ]
+}
