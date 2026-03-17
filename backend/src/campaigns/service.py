@@ -16,8 +16,8 @@ from src.state import initial_state, CampaignState
 from src.graph.workflow import create_campaign_app
 from src.llm_router import reset_cost_tracker, get_cost_tracker
 
-from backend.src.database import supabase
-from backend.src.campaigns.schemas import CampaignBrief, CampaignReview
+from src.database import supabase
+from src.campaigns.schemas import CampaignBrief, CampaignReview
 
 
 class CampaignService:

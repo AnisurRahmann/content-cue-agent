@@ -7,8 +7,8 @@ Authentication endpoints - signup, login, get current user.
 from fastapi import APIRouter, HTTPException, status
 from supabase import AuthApiError
 
-from backend.src.auth.schemas import SignupRequest, LoginRequest, AuthResponse, UserResponse
-from backend.src.database import supabase
+from src.auth.schemas import SignupRequest, LoginRequest, AuthResponse, UserResponse
+from src.database import supabase
 
 router = APIRouter(prefix="/auth", tags=["auth"])
 

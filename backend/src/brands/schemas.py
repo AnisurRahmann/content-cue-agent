@@ -50,7 +50,10 @@ class BrandResponse(BrandBase):
 
 
 # ============================================================================
--- FIX: Continue with product schemas
+# PRODUCT SCHEMAS
+# ============================================================================
+
+
 class ProductBase(BaseModel):
     """Base product schema."""
     slug: str

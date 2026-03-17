@@ -204,6 +204,26 @@ The system generates platform-appropriate content:
 
 ## 🛠️ Development
 
+### Docker Development
+
+**Start development environment with automatic port selection:**
+```bash
+./dev.sh
+```
+
+This script automatically detects if the default ports (8000, 3000) are in use and finds available alternatives. It will display which ports are being used before starting the containers.
+
+**Manual port control:**
+```bash
+# Set custom ports manually
+BACKEND_PORT=8080 FRONTEND_PORT=3001 docker-compose -f docker-compose.dev.yml up --build
+```
+
+**Stop containers:**
+```bash
+docker-compose -f docker-compose.dev.yml down
+```
+
 ### Add New Product
 
 Edit `data/products.json`:

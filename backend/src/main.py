@@ -7,10 +7,10 @@ Backend API with Supabase integration for campaign management.
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from backend.src.config import settings
-from backend.src.auth.router import router as auth_router
-from backend.src.brands.router import router as brands_router
-from backend.src.campaigns.router import router as campaigns_router
+from src.config import settings
+from src.auth.router import router as auth_router
+from src.brands.router import router as brands_router
+from src.campaigns.router import router as campaigns_router
 
 
 # ============================================================================
@@ -25,13 +25,13 @@ app = FastAPI(
 
 
 # ============================================================================
--- FIX: Continue with CORS setup
+# FIX: Continue with CORS setup
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         settings.FRONTEND_URL,
-        "http://localhost:3000",
-        "http://127.0.0.1:3000",
+        "http://localhost:3001",
+        "http://127.0.0.1:3001",
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -40,7 +40,7 @@ app.add_middleware(
 
 
 # ============================================================================
--- INCLUDE ROUTERS
+# INCLUDE ROUTERS
 # ============================================================================
 
 app.include_router(auth_router)
@@ -49,7 +49,7 @@ app.include_router(campaigns_router)
 
 
 # ============================================================================
--- ROOT ENDPOINTS
+# ROOT ENDPOINTS
 # ============================================================================
 
 @app.get("/")
@@ -72,8 +72,8 @@ if __name__ == "__main__":
     import uvicorn
 
     uvicorn.run(
-        "backend.src.main:app",
+        "src.main:app",
         host="0.0.0.0",
-        port=8000,
+        port=8001,
         reload=True
     )

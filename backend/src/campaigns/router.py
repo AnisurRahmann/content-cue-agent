@@ -7,14 +7,14 @@ Endpoints for campaign creation, listing, review, and cost tracking.
 from fastapi import APIRouter, HTTPException, Depends, BackgroundTasks
 from typing import List
 
-from backend.src.auth.dependencies import get_current_user_simple
-from backend.src.campaigns.schemas import (
+from src.auth.dependencies import get_current_user_simple
+from src.campaigns.schemas import (
     CampaignCreate,
     CampaignResponse,
     CampaignReview,
     ContentPieceResponse
 )
-from backend.src.campaigns.service import CampaignService
+from src.campaigns.service import CampaignService
 
 router = APIRouter(prefix="/campaigns", tags=["campaigns"])
 

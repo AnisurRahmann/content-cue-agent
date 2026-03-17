@@ -7,8 +7,8 @@ CRUD endpoints for brands and products.
 from fastapi import APIRouter, HTTPException, status, Depends
 from typing import List
 
-from backend.src.auth.dependencies import get_current_user_simple
-from backend.src.brands.schemas import (
+from src.auth.dependencies import get_current_user_simple
+from src.brands.schemas import (
     BrandCreate,
     BrandUpdate,
     BrandResponse,
@@ -16,13 +16,13 @@ from backend.src.brands.schemas import (
     ProductUpdate,
     ProductResponse
 )
-from backend.src.brands.service import BrandService
+from src.brands.service import BrandService
 
 router = APIRouter(prefix="/brands", tags=["brands"])
 
 
 # ============================================================================
--- BRANDS ENDPOINTS
+# BRANDS ENDPOINTS
 # ============================================================================
 
 @router.get("", response_model=List[BrandResponse])
@@ -88,7 +88,7 @@ async def delete_brand(brand_id: str, current_user: dict = Depends(get_current_u
 
 
 # ============================================================================
--- PRODUCTS ENDPOINTS
+# PRODUCTS ENDPOINTS
 # ============================================================================
 
 @router.get("/{brand_id}/products", response_model=List[ProductResponse])

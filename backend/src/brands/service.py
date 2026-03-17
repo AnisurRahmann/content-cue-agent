@@ -5,8 +5,8 @@ Business logic for brand and product CRUD operations.
 """
 
 from typing import List, Optional
-from backend.src.database import supabase
-from backend.src.brands.schemas import BrandCreate, BrandUpdate, ProductCreate, ProductUpdate
+from src.database import supabase
+from src.brands.schemas import BrandCreate, BrandUpdate, ProductCreate, ProductUpdate
 
 
 class BrandService:

@@ -6,7 +6,7 @@ Initialize Supabase client for all database operations.
 
 from supabase import create_client, Client
 
-from backend.src.config import settings
+from src.config import settings
 
 
 def get_supabase() -> Client:
